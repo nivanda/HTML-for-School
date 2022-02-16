@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url("space.jpg");
+    background-image: url("../images/space.jpg");
     background-attachment: fixed;
     height: 100%;
     color: white;
@@ -29,4 +29,11 @@ a:hover {
 }
 p, ul li {
     font-weight: 300;
+}
+
+.svgstar {
+    fill: #28d1a1;
+}
+.svgstar:hover {
+    fill: black;
 }
