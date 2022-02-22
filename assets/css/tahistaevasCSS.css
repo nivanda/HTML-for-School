@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.RotatorStar {
+    fill: #36ada7;
+    transition: transform 7s linear;
+
+}
+.RotatorStar:hover {
+    transform: rotate(36000deg);
+}
+
+.BlinkingStar {
+    font-size: 25px;
+    fill: #ffffff;
+	font-family: cursive;
+	color: white;
+	animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
+
+.BlurredStar {
+    filter: url(#blur);
+    fill: #e31919;
+}
